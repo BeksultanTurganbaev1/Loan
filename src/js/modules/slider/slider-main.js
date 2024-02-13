@@ -56,7 +56,7 @@ export default class MainSlider extends Slider {
             item.addEventListener('click', (e) => {
                 e.stopPropagation();
                 e.preventDefault();
-                this.plusSlides(-1);
+                this.plusSlides(1);
             });
         });
 
@@ -64,7 +64,7 @@ export default class MainSlider extends Slider {
             item.addEventListener('click', (e) => {
                 e.stopPropagation();
                 e.preventDefault();
-                this.plusSlides(1);
+                this.plusSlides(-1);
             });
         });
 
